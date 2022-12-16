@@ -1,0 +1,9 @@
+table,th,td{
+    /*테두리 두깨 , 색깔 지정*/
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    /*패딩 값*/
+    padding: 15px;
+}

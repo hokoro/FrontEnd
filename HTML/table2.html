@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table example2</title>
+
+    <link rel="stylesheet" href="../CSS/table.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th> <!-- 셀이 점유하는 열의 수 지정 -->
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>555 77 854</td> <!--해당 열부터 두개 들어간다 colspan 이 두개 이기 때문에 -->
+            <td>555 77 854</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Name</th>           <!--가로 로 칸을 나눌때는 tr 태그 하나 에 th + td 태그 꼴로 나타내야 한다-->
+            <td>Bill gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th> <!-- 해당 행에 데이터 를 넣을수 있는 수 -->
+            <td>555 77 84</td>
+        </tr>
+        <tr>
+            <td>555 77 84</td>
+        </tr>
+    </table>
+</body>
+</html>
