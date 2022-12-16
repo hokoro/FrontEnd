@@ -1,0 +1,23 @@
+.Game_title{
+    float: left;
+    padding-left: 3%;
+    padding-top: 10px;
+}
+.Game_video{
+    padding-top: 7%;
+    position: absolute;
+    top :30px;
+    left :30px;
+}
+.Chat{
+    display: flex;
+}
+.Chat_Area{
+    position: absolute;
+    right: 100px;
+    top:800px
+}
+.Main{
+    display: flex;
+    float: right;
+}
